@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Styles */
+
+html {
+	font-family: "chaparral-pro-1","chaparral-pro-2", Georgia, serif;
+	font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "cronos-pro-1","cronos-pro-2", Georgia, serif;
+}
+
+h1 {
+	font-size: 3em;
+	margin: 0 auto 0.5em auto;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 0 auto;
+}
+
+h3 {
+	margin: 0 0 0.5em 0;
+	font-size: 1.5em;
+	color: #26ADE4;
+}
+
+header {
+	padding: 2em 0;
+	background: #26ADE4;
+}
+
+header h1, header h2 {
+	width: 700px;
+	color: #fff;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.5;
+	margin: 0 0 1em 0;
+	color: #000;
+}
+
+a, strong {
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	border-bottom: 2px solid #26ADE4;
+	color: #000;
+	font-style: italic;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+b {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.container {
+	width: 700px;
+	margin: 2em auto;
+}
+
+.dfs {
+	border-bottom: 2px solid #342A7B;
+}
+
+	.dfs:hover {
+		color: #fff;
+		background-color: #342A7B;
+	}
+
+.starbucks {
+	border-bottom: 2px solid #2A8A15;
+}
+
+	.starbucks:hover {
+		color: #fff;
+		background-color: #2A8A15;
+	}
+
+.tesco {
+	border-bottom: 2px solid #ED1C24;
+}
+
+	.tesco:hover {
+		color: #fff;
+		background-color: #0053A0;
+	}
+
+.tourism-whistler {
+	border-bottom: 2px solid #31A4B8;
+}
+
+	.tourism-whistler:hover {
+		color: #fff;
+		background-color: #31A4B8;
+	}
+
+form {
+	background: #e5e5e5;
+	padding: 1em;
+	border: 1px solid #26ADE4;
+}
+
+label, input, textarea {
+	font-family: "chaparral-pro-1","chaparral-pro-2";
+	font-size: 1.2em;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+label {
+	display: block;
+}
+
+input[type="text"], textarea {
+	width: 98%;
+	padding: 5px;
+	border: 1px solid #26ADE4;
+}
+
+textarea {
+	height: 25%;
+}
+
+.field {
+	margin: 0 0 0.5em 0;
+}
+
+.field.button {
+	margin: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+	.container, header h1, header h2 { 
+		width: 90%;
+	}
+	
+	h1 {
+		font-size: 2.5em;
+	}
+	
+	h2 {
+		font-size: 1.5em;
+	}
+}
