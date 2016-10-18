@@ -7,8 +7,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -19,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -145,6 +145,15 @@ em {
 		background-color: #31A4B8;
 	}
 
+.whistler-blackcomb {
+	border-bottom: 2px solid #BF2C37;
+}
+
+	.whistler-blackcomb:hover {
+		color: #fff;
+		background-color: #BF2C37;
+	}
+
 form {
 	background: #e5e5e5;
 	padding: 1em;
@@ -185,14 +194,14 @@ textarea {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px){
-	.container, header h1, header h2 { 
+	.container, header h1, header h2 {
 		width: 90%;
 	}
-	
+
 	h1 {
 		font-size: 2.5em;
 	}
-	
+
 	h2 {
 		font-size: 1.5em;
 	}
