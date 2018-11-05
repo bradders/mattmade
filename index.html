@@ -39,14 +39,20 @@
 	<p><strong>matt [at] mattmade [dot] co [dot] uk</strong></p>
 
 </div>
+<!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
 <script>
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//avalog.usesfathom.com/tracker.js', 'fathom');
+fathom('set', 'siteId', 'GGSFM');
+fathom('trackPageview');
 </script>
-<script>
-try {
-var pageTracker = _gat._getTracker("UA-715960-4");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+<!-- / Fathom -->
 </body>
 </html>
